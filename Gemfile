@@ -27,6 +27,7 @@ gem 'mini_magick'
 gem 'carrierwave-video'
 gem 'friendly_id'
 #gem "nokogiri", github: "sparklemotion/nokogiri"
+gem 'bootstrap', '~> 4.0.0.alpha5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
