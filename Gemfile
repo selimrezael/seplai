@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-gem 'pg'
+gem 'rails', '~> 5.0', '>= 5.0.0.1'
+gem 'pg', '~> 0.18'
 gem 'puma'
 
 gem 'uglifier'
@@ -27,7 +27,7 @@ gem 'mini_magick'
 gem 'carrierwave-video'
 gem 'friendly_id'
 #gem "nokogiri", github: "sparklemotion/nokogiri"
-gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
