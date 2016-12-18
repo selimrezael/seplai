@@ -38,13 +38,14 @@ group :development, :test do
   #gem 'rspec-rails', '~> 3.5.1'
   #gem 'factory_girl_rails', '~> 4.7.0'
   gem 'brakeman', require: false
+  
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
-  gem 'better_errors'
-  gem 'binding_of_caller'
+  gem 'better_errors', '~> 2.1', '>= 2.1.1'
+  gem 'binding_of_caller', '~> 0.7.2'
   gem 'meta_request'
   gem 'listen'
   # Spring speeds up development by keeping your application running in the background.
